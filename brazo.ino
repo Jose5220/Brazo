@@ -10,7 +10,7 @@ void setup(){
   izquierdo.attach(10);
   gancho.attach(9);
 }
-  void loop(){
+void loop(){
 base.write(80);
 delay(2000);
 derecho.write(100);
